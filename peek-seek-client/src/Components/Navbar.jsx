@@ -5,13 +5,13 @@ const Navbar = () => {
   const Links = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </li>
       <li>
-        <NavLink>All Images</NavLink>
+        <NavLink to='/all-images'>All Images</NavLink>
       </li>
       <li>
-        <NavLink>Generate Images</NavLink>
+        <NavLink to="/generate">Generate Images</NavLink>
       </li>
      
     </>
